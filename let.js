@@ -13,3 +13,7 @@ function you() {
 }
 console.log(you());
 console.log(out);
+
+var varName = "anjali";
+varName = varName ;
+console.log(varName) 
