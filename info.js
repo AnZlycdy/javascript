@@ -7,9 +7,17 @@ const person = {
     
 }
 
-function display(detail){
-    return(`Hello ${detail.name} is ${detail.age} years old having ${detail.car}.`)
+const person1 = {
+    name:"anu",
+    age:"10",
+    car:"jeep",  
+    
+}
+
+function display(a){
+    return(`Hello ${a.name} is ${a.age} years old having ${a.car}.`)
 
 }
 console.log(display(person));
+console.log(display(person1));
 
